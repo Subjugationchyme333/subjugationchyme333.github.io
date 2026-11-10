@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 530">
+  <defs>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+      <path d="M25 0H0V25" fill="none" stroke="#ad6387" stroke-width=".65" opacity=".5"/>
+    </pattern>
+    <pattern id="grain" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="2" r=".6" fill="#e1a1ba" opacity=".19"/>
+      <circle cx="6" cy="7" r=".6" fill="#e1a1ba" opacity=".12"/>
+    </pattern>
+    <radialGradient id="back" cx=".49" cy=".48" r=".62">
+      <stop stop-color="#65294b"/>
+      <stop offset="1" stop-color="#36162b"/>
+    </radialGradient>
+    <linearGradient id="wing" x1="0" x2="1" y1="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#f3bdcf"/>
+      <stop offset="1" stop-color="#a5597b"/>
+    </linearGradient>
+  </defs>
+  <rect width="560" height="530" fill="url(#back)"/>
+  <rect x="30" y="29" width="500" height="471" fill="url(#grid)"/>
+  <rect width="560" height="530" fill="url(#grain)"/>
+  <path d="M30 63V30h33m434 0h33v33M30 467v33h33m434 0h33v-33" fill="none" stroke="#d7a3bc" stroke-width="1"/>
+  <g fill="none" stroke="#bf83a4" opacity=".58">
+    <circle cx="280" cy="268" r="165" stroke-dasharray="2 6"/>
+    <circle cx="280" cy="268" r="119"/>
+    <circle cx="280" cy="268" r="73"/>
+    <path d="M280 87v363M93 268h373" stroke-dasharray="2 7"/>
+    <path d="M34 411c31-7 69-2 97 15 42 25 83 39 125 29 37-9 54-33 104-32 49 1 86 23 165 9M34 428c32-7 68-2 95 15 42 25 85 40 129 30 41-10 58-34 105-33 49 2 88 23 162 9M34 445c34-7 68 0 94 16 42 26 85 41 131 30 42-10 58-34 107-33 46 1 84 23 159 10" opacity=".65"/>
+  </g>
+  <g fill="#f8d9e8" font-family="monospace" font-size="10" letter-spacing="1.25">
+    <text x="49" y="55">FIELD NOTES</text>
+    <text x="511" y="55" text-anchor="end">OBSERVATION / 01</text>
+    <text x="49" y="483">IMAGE → SIGNAL → RECORD</text>
+    <text x="511" y="483" text-anchor="end">ILLUSTRATION</text>
+  </g>
+  <g stroke="#e9b0cc" stroke-width="1" fill="none" opacity=".82">
+    <path d="M414 169h37l32-33h28M149 320h-46l-23 24H50M301 365v35h92"/>
+    <circle cx="414" cy="169" r="3" fill="#e9b0cc"/>
+    <circle cx="149" cy="320" r="3" fill="#e9b0cc"/>
+    <circle cx="301" cy="365" r="3" fill="#e9b0cc"/>
+  </g>
+  <g fill="#f8d9e8" font-family="monospace" font-size="9" letter-spacing="1">
+    <text x="511" y="127" text-anchor="end">01 / IMAGE</text>
+    <text x="49" y="360">02 / SIGNAL</text>
+    <text x="399" y="404">03 / RECORD</text>
+  </g>
+  <g transform="rotate(-7 282 255)" stroke-linejoin="round">
+    <path d="M132 219 88 114 127 143 176 176 227 194 276 222 314 234 347 207 365 178 394 169 418 182 445 195 414 205 399 220 376 250 345 271 294 296 271 325 220 359 169 377 201 345 156 360 198 318 251 278 216 265 175 245Z" fill="#2e1024" opacity=".55" transform="translate(4 10)"/>
+    <path d="M198 318 251 278 295 281 271 325 220 359 169 377 201 345 156 360Z" fill="#a95c7f" stroke="#e7a6c0" stroke-width="1.1"/>
+    <path d="M169 377 235 336 271 325 220 359Z" fill="#d38fab"/>
+    <path d="M156 360 218 325 255 294 198 318Z" fill="#ce84a6"/>
+    <path d="M208 261 263 222 314 234 347 207 365 178 394 169 418 182 414 205 399 220 376 250 345 271 294 296 249 285Z" fill="#f8d4e4" stroke="#fce0eb" stroke-width="1.4"/>
+    <path d="M252 280 288 255 335 248 368 229 399 220 376 250 345 271 294 296Z" fill="#c97e9e"/>
+    <path d="M322 233 347 207 365 178 394 169 418 182 408 194 382 194 366 205 355 223Z" fill="#e1a1b9"/>
+    <path d="M418 182 445 195 414 205 405 197Z" fill="#f6ccb4" stroke="#fce0eb" stroke-width="1"/>
+    <circle cx="394" cy="188" r="4.7" fill="#36162b"/>
+    <circle cx="395.3" cy="186.8" r="1.2" fill="#fff3ef"/>
+    <path d="M294 265 251 278 216 265 175 245 132 219 88 114 127 143 176 176 227 194 276 222 314 234Z" fill="url(#wing)" stroke="#ffdeea" stroke-width="1.25"/>
+    <path d="M88 114 131 177 173 207 218 225 268 235 227 194 176 176 127 143Z" fill="#f1bbd0"/>
+    <path d="M132 219 176 239 223 252 266 253 294 265 251 278 216 265 175 245Z" fill="#9d4e74"/>
+    <path d="M88 114 131 177 173 207 218 225 268 235 314 234M132 219l40 2 51 21 45 6 26 17M111 169l64 61 49 24 27 24m-50 67 46-30 24-23m24-34 40-10 34-20" fill="none" stroke="#ffdbe6" stroke-width="1" opacity=".68"/>
+    <path d="M151 200 176 176 194 213 227 194 241 229 276 222 268 235M176 239l-3-32 43 58 2-40 33 53 17-43 26 30" fill="none" stroke="#f9d3e4" stroke-width=".7" opacity=".5"/>
+  </g>
+  <g fill="#f8d9e8">
+    <path d="M122 116h10m-5-5v10M474 315h10m-5-5v10M358 106h10m-5-5v10" stroke="#f8d9e8" stroke-width="1"/>
+    <circle cx="465" cy="247" r="2"/><circle cx="161" cy="393" r="2"/><circle cx="211" cy="128" r="2"/>
+  </g>
+</svg>
